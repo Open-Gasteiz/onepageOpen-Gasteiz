@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Open-Gasteiz</title>
+    <title>Open Gasteiz</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,43 +38,66 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+                <a href="#top" onclick=$("#menu-close").click();>Open Gasteiz</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#acerca" onclick=$("#menu-close").click();>Acerca de...</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#talleres" onclick=$("#menu-close").click();>Talleres</a>
             </li>
+            <li>
+                <a href="https://github.com/open-gasteiz" target="_blank" onclick=$("#menu-close").click();>Github</a>
+            </li>
+
+            <li>
+                <a href="#mapa" onclick=$("#menu-close").click();>Mapa</a>
+            </li>
+            <li>
+                <a href="#contacto" onclick=$("#menu-close").click();>Contacto</a>
+            </li>
+            <!--
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
             </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
+
+          -->
         </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <h1></h1>
+          </br>
+            <!--<a href="#about" class="btn btn-dark btn-lg">Find Out More</a>-->
         </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="acerca" class="services bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                <div class="col-lg-12" >
+                    <h1 align="center"><font size=10>Acerca de</font></h1>
+                  </br>
+                    <font size=5>Open Gasteiz quiere impulsar el Software Libre. Para ello, Open Gasteiz organizará talleres con el fin de presentar tecnologías libres desde una perspectiva principalmente técnica y abierta.</font>
+
+                </div>
+                <div class="col-lg-12 text-left">
+                  <font size=4>
+                  </br>
+                  Los objetivos son:
+                    <ul>
+                      <li>Divulgar el Software Libre entre personas con unos mínimos conocimientos informáticos.</li>
+                      <li>Establecer vínculos de comunicación entre diferentes perfiles de trabajo (y de ocio) en el mundo de la informática.</li>
+                      <li>Crear un entorno colaborativo y enfocado a la participación.</li>
+                      <li>Tomar unas cervezas y contar historias ;-)</li>
+                    </ul>
+                  </font>
                 </div>
             </div>
             <!-- /.row -->
@@ -84,6 +107,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <!--
     <section id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
@@ -144,44 +168,58 @@
                             </div>
                         </div>
                     </div>
+                    -->
                     <!-- /.row (nested) -->
+                    <!--
                 </div>
+                  -->
                 <!-- /.col-lg-10 -->
+            <!--
             </div>
+            -->
             <!-- /.row -->
+        <!--
         </div>
+        -->
         <!-- /.container -->
+    <!--
     </section>
+  -->
 
     <!-- Callout -->
+    <!--
     <aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
     </aside>
-
+  -->
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="talleres" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h1><font size=10>Talleres</font></h1>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <a href="https://github.com/Open-Gasteiz/SL-0" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/docker-vagrant.png">
                                 </a>
+                                <b><font size=4>Fecha: 03/03/2017</font></b>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                <a href="https://github.com/Open-Gasteiz" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/proxmox-logo.png">
                                 </a>
+                              </br>
+                                <b><font size=4>Fecha: 10/03/2017</font></b>
                             </div>
                         </div>
+                        <!--
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -197,8 +235,9 @@
                             </div>
                         </div>
                     </div>
+                  -->
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -208,6 +247,7 @@
     </section>
 
     <!-- Call to Action -->
+    <!--
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
@@ -219,10 +259,16 @@
             </div>
         </div>
     </aside>
+  -->
+
+    <!-- Map -->
+    <section id="mapa" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.005379579089!2d-2.6726998890312115!3d42.8516195825942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4fc2682df050a9%3A0x1c08c70d95e8a957!2sSaregune!5e0!3m2!1ses!2ses!4v1488142284141"/>
+    </section>
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.005379579089!2d-2.6726998890312115!3d42.8516195825942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4fc2682df050a9%3A0x1c08c70d95e8a957!2sSaregune!5e0!3m2!1ses!2ses!4v1488142284141"/>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
         <small>
             <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
@@ -231,18 +277,18 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div id="contacto" class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Open Gasteiz</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>Santa Maria Kantoia, 4 zenbakia, Cantón de Santa María, 4,
+                        <br>01001 Vitoria-Gasteiz, Álava</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@opengasteiz.com">info@opengasteiz.com</a>
                         </li>
                     </ul>
+                    <!--
                     <br>
                     <ul class="list-inline">
                         <li>
@@ -255,8 +301,11 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
+                  -->
+                  <!--
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Your Website 2017</p>
+                  -->
                 </div>
             </div>
         </div>
