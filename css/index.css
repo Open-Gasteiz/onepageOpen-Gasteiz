@@ -7,24 +7,70 @@ body {
 }
 
 body {
+    font-size: 120%;
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+#container {
+    display: flex;
+    flex-direction: column;
 }
 
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+#container > header {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+#container > main {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#container > footer {
+    width: 100%;
+}
+
+main > section {
+    width: 100%;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+/* About section */
+#acerca{
+    
+}
+
+
+
+/* Talleres section*/
+
+#talleres {
+
+}
+
+/* Map section*/
+
+#map {
+    height: 500px;
+}
+
+/*FOOTER*/
+
+
+
 
 /* Custom Button Styles */
-
 .button-dark {
     border-radius: 0;
     color: #fff;
@@ -57,8 +103,7 @@ hr.small {
     max-width: 100px;
 }
 
-/* Side Menu */
-
+/* Side navigation*/
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -142,83 +187,6 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
-
-.header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../img/bg.png) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* About */
-
-.about {
-    padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
 
 @media(max-width:768px) {
     .map {
@@ -241,4 +209,22 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+@media only screen and (min-width: 769px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 769px) and (orientation: landscape) {
+
 }
