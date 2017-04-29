@@ -59,120 +59,127 @@
         </ul>
     </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1></h1>
-          </br>
-        </div>
-    </header>
+    <div id="container">
+        <!-- Header -->
+        <header id="top" class="header">
+        </header>
 
-    <main>
-        <!-- About -->
-        <section id="acerca">
-            <header>
-                <h1 align="center"><font size=10>Acerca de</font></h1>
-                <font size=5>Open Gasteiz quiere impulsar el Software Libre. Para ello, Open Gasteiz organizará talleres con el fin de presentar tecnologías libres desde una perspectiva principalmente técnica y abierta.</font>
-            </header>
-            <main>
-                <h3>Los objetivos son:</h3>
-                <ul>
-                    <li>Divulgar el Software Libre entre personas con unos mínimos conocimientos informáticos.</li>
-                    <li>Establecer vínculos de comunicación entre diferentes perfiles de trabajo (y de ocio) en el mundo de la informática.</li>
-                    <li>Crear un entorno colaborativo y enfocado a la participación.</li>
-                    <li>Tomar unas cervezas y contar historias ;-)</li>
+        <main>
+            <!-- About -->
+            <section id="acerca">
+                <header>
+                    <h1 class="title">Acerca de</h1>
+                    <div class="description">
+                        <p>Open Gasteiz quiere impulsar el Software Libre. Para ello, Open Gasteiz organizará talleres con el fin de presentar tecnologías libres desde una perspectiva principalmente técnica y abierta.</p>
+                    </div>
+                </header>
+                <main>
+                    <h3>Los objetivos son:</h3>
+                    <ul>
+                        <li>Divulgar el Software Libre entre personas con unos mínimos conocimientos informáticos.</li>
+                        <li>Establecer vínculos de comunicación entre diferentes perfiles de trabajo (y de ocio) en el mundo de la informática.</li>
+                        <li>Crear un entorno colaborativo y enfocado a la participación.</li>
+                        <li>Tomar unas cervezas y contar historias ;-)</li>
+                    </ul>
+                </main>
+            </section>
+
+            <!-- Portfolio -->
+            <section id="talleres">
+                <header>
+                    <h1 class="title">Talleres</h1>
+                </header>
+                <main>
+                    <article class="event event-taller">
+                        <header>
+                            <h3>Docker + Vagrant</h3>
+                        </header>
+                        <main>
+                            <a href="https://github.com/Open-Gasteiz/SL-0" target="_blank">
+                                <img class="" src="img/docker-vagrant.png"/>
+                            </a>
+                        </main>
+                        <footer>
+                            <b>Fecha: 03/03/2017 Hora: 18:30</b>
+                        </footer>
+                    </article>
+
+                    <article class="event event-taller">
+                        <header>
+                            <h3>Introducción a Proxmox</h3>
+                        </header>
+                        <main>
+                            <a href="https://github.com/Open-Gasteiz/Liberad_al_pinguino" target="_blank">
+                                <img class="" src="img/proxmox-logo.png"/>
+                            </a>
+                        </main>
+                        <footer>
+                            <b>Fecha: 16/03/2017 Hora: 18:30</b>
+                        </footer>
+                    </article>
+                    <article class="event event-taller">
+                        <header>
+                            <h3>Spycam con Raspberry</h3>
+                        </header>
+                        <main>
+                            <a href="https://github.com/Open-Gasteiz/IoT/tree/master/SecurityCamera" target="_blank">
+                                <img class="" src="img/spy.jpg"/>
+                            </a>
+                        </main>
+                        <footer>
+                            <b>Fecha: 31/03/2017 Hora: 18:30</b>
+                        </footer>
+                    </article>
+                    <article class="event event-taller">
+                        <header>
+                            <h3>Introducción a Ghost</h3>
+                        </header>
+                        <main>
+                            <a href="https://github.com/Open-Gasteiz/Ghost.git" target="_blank">
+                                <img class="" src="img/ghost.png"/>
+                            </a>
+                        </main>
+                        <footer>
+                            <b>Fecha: 4/05/2017 Hora: 18:30</b>
+                        </footer>
+                    </article>
+                </main>
+            </section>
+
+            <!-- Map -->
+            <section id="mapa">
+                <!--
+                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+                -->
+                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.6721185445785527%2C42.851113930341285%2C-2.669355869293213%2C42.85225639253688&amp;layer=mapnik&amp;marker=42.85168418089466%2C-2.6707372069358826" style="border: 1px solid black"></iframe>
+                <br />
+                <small>
+                    <small><a href="https://www.openstreetmap.org/?mlat=42.85168&amp;mlon=-2.67074#map=19/42.85169/-2.67074"></a></small>
+                </small>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <section id="contacto" class="container">
+                <h4><strong>Open Gasteiz</strong></h4>
+                <p>Santa Maria Kantoia, 4 zenbakia, Cantón de Santa María, 4,<br>
+                    01001 Vitoria-Gasteiz, Álava
+                </p>
+                <ul class="">
+                    <li><i class=""></i>
+                        <a href="mailto:info@opengasteiz.com">info@opengasteiz.com</a>
+                    </li>
                 </ul>
-            </main>
-        </section>
-
-        <!-- Portfolio -->
-        <section id="talleres">
-            <h1><font size=10>Talleres</font></h1>
-            <hr class="small">
-            <article class="event event-taller">
-                <header>
-                </header>
-                <main>
-                    <a href="https://github.com/Open-Gasteiz/SL-0" target="_blank">
-                        <img class="img-portfolio img-responsive" src="img/docker-vagrant.png">
-                    </a>
-                </main>
-                <footer>
-                    <b><font size=4>Fecha: 03/03/2017 Hora: 18:30</font></b>
-                </footer>
-            </article>
-
-            <article class="event event-taller">
-                <header>
-                </header>
-                <main>
-                    <a href="https://github.com/Open-Gasteiz/Liberad_al_pinguino" target="_blank">
-                        <img class="img-portfolio" src="img/proxmox-logo.png">
-                    </a>
-                </main>
-                <footer>
-                    <b><font size=4>Fecha: 16/03/2017 Hora: 18:30</font></b>
-                </footer>
-            </article>
-            <article class="event event-taller">
-                <header>
-                </header>
-                <main>
-                    <a href="https://github.com/Open-Gasteiz/IoT/tree/master/SecurityCamera" target="_blank">
-                        <img class="img-portfolio img-responsive" src="img/spy.jpg">
-                    </a>
-                </main>
-                <footer>
-                    <b><font size=4>Fecha: 31/03/2017 Hora: 18:30</font></b>
-                </footer>
-            </article>
-            <article class="event event-taller">
-                <header>
-                </header>
-                <main>
-                    <a href="https://github.com/Open-Gasteiz/Ghost.git" target="_blank">
-                        <img class="img-portfolio img-responsive" src="img/ghost.png">
-                    </a>
-                </main>
-                <footer>
-                    <b><font size=4>Fecha: 4/05/2017 Hora: 18:30</font></b>
-                </footer>
-            </article>
-        </section>
-
-        <!-- Map -->
-        <section id="mapa">
-            <!--
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            -->
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.6721185445785527%2C42.851113930341285%2C-2.669355869293213%2C42.85225639253688&amp;layer=mapnik&amp;marker=42.85168418089466%2C-2.6707372069358826" style="border: 1px solid black"></iframe>
-            <br />
-            <small>
-                <small><a href="https://www.openstreetmap.org/?mlat=42.85168&amp;mlon=-2.67074#map=19/42.85169/-2.67074"></a></small>
-            </small>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <section id="contacto" class="container">
-            <h4><strong>Open Gasteiz</strong></h4>
-            <p>Santa Maria Kantoia, 4 zenbakia, Cantón de Santa María, 4,<br>
-                01001 Vitoria-Gasteiz, Álava
-            </p>
-            <ul class="">
-                <li><i class=""></i>
-                    <a href="mailto:info@opengasteiz.com">info@opengasteiz.com</a>
-                </li>
-            </ul>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                <img alt="Licencia de Creative Commons"  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-            </a><br />
-            <p>Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
-            </p>
-        </section>
-        <a id="to-top" href="#top" class="button-dark"><i class=""></i></a>
-    </footer>
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <img alt="Licencia de Creative Commons"  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+                </a><br />
+                <p>Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
+                </p>
+            </section>
+            <a id="to-top" href="#top" class="button-dark"><i class=""></i></a>
+        </footer>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
