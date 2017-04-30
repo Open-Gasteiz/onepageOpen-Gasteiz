@@ -199,10 +199,40 @@ body {
 
 /*FOOTER*/
 
-#footer {
-
+#footer{
+    width: 100%;
 }
 
+    #contact {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 0;
+    }
+
+        #contact > header {
+        }
+
+            #contact > header h4 {
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+
+            #contact > header p {
+                margin-top: 15px;
+                font-size: 0.9rem;
+            }
+
+        #contact > main {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+
+        #contact > footer {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
 
 
 /* Custom Button Styles */
